@@ -14,7 +14,7 @@ driver = driver_setup.setup_driver()
 
 # scrape data
 results = []
-for url in urls[:2]:
+for url in urls:
     auction_data = scrape_auction.scrape_auction_data(driver, url)
     results.append(auction_data)
     time.sleep(5)
