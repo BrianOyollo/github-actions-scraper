@@ -5,7 +5,7 @@ import upload
 import notify
 
 
-with open("src/rescrape_urls_part_1.txt", "r") as file:
+with open("src/rescrape_urls_part_2.txt", "r") as file:
     urls = [url.strip() for url in file.readlines()]
 
 
